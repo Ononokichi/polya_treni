@@ -236,3 +236,10 @@ padding-bottom: 80px;
     width: 10px;
     background-color: #7202f1;
 }
+
+@media screen and (max-width:568px) {
+    .container{
+        width: 100%;
+    }
+    
+}
