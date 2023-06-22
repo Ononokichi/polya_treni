@@ -153,9 +153,11 @@ body {
     width: 1200px;
     margin: 0 auto;
 }
-.carousel-mb{
+
+.carousel-mb {
     margin-bottom: 200px;
 }
+
 .carousel {
     display: flex;
     justify-content: flex-end;
@@ -217,4 +219,106 @@ body {
 .ul__before li::before {
     content: url(./img/bullet.svg);
     margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:568px) {
+
+
+    .descktop-mb {
+        margin-bottom: 0;
+    }
+
+    /* Стили текстов */
+    .h2-text {
+
+        font-size: 36px;
+        line-height: 43px;
+
+    }
+
+    .h3-text {
+
+        font-size: 20px;
+
+    }
+
+    .p-text {
+        font-size: 16px;
+    }
+
+    .style-text {
+        font-size: 20px;
+    }
+
+    /* Другое */
+    .container {
+        width: 576px;
+
+    }
+
+    .p-text__wrapper {
+        width: calc(100% - 28px);
+        max-width: 460px;
+        margin-left: 14px;
+    }
+
+
+    /* Видео */
+
+    .carousel__wrapper {
+        margin: 0 auto;
+        width: calc(100% - 28px);
+        height: 310px;
+        background-color: #fff;
+    }
+
+    .video__wrapper {}
+
+    /* Свайпер */
+    .video__item {}
+
+    /* Отступы */
+
+    .s3-tizhden {
+        padding-bottom: 80px;
+    }
+
+    .padding-top {
+        padding-top: 80px;
+    }
+
+    .list__item {
+        margin-bottom: 24px;
+    }
+
+    .list__item:last-child {
+        margin-bottom: 0;
+    }
+
+    .h2-mb {
+        margin-bottom: 50px;
+    }
+
+    .h3-mb {
+        margin-bottom: 26px;
+    }
+
+    .p-mb {
+        margin-bottom: 50px;
+    }
+
+    .video__item-mb {
+        margin-bottom: 70px;
+    }
+
+
+
 }
