@@ -214,7 +214,6 @@ body {
 }
 
 /* Section Treni Press */
-
 .ul__before li::before {
     content: url(./img/bullet.svg);
     margin-right: 10px;
