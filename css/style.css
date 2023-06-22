@@ -91,7 +91,7 @@ body {
     font-style: normal;
     font-weight: 900;
     /* Браузер сначала попробует найти шрифт локально */
-    src: local("NAMU-Pro");
+    src: url(./fonts/NAMU-Pro.woff2);
 }
 
 @font-face {
@@ -99,7 +99,7 @@ body {
     font-style: normal;
     font-weight: 500;
     /* Браузер сначала попробует найти шрифт локально */
-    src: local("NAMU-1910");
+    src: url(./fonts/NAMU-1910.woff2);
 }
 
 @font-face {
@@ -107,7 +107,7 @@ body {
     font-style: normal;
     font-weight: 300;
     /* Браузер сначала попробует найти шрифт локально */
-    src: local("NAMU-1750");
+    src: url(./fonts/NAMU-1750.woff2);
 }
 
 
